@@ -1,0 +1,5 @@
+export const authKeys = {
+  HANDLE_LOGOUT: 'auth/HANDLE_LOGOUT',
+  LOGIN_SUCCESS: 'auth/LOGIN_SUCCESS',
+  LOGOUT_SUCCESS: 'auth/LOGOUT_SUCCESS'
+}

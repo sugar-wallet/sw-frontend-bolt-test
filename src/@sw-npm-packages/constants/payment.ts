@@ -1,0 +1,63 @@
+export const PAYMENT_VENDORS = {
+  STRIPE: 'stripe',
+  RAZORPAY: 'razorpay',
+  AKAHU: 'akahu'
+}
+
+export const PAYMENT_TYPES = {
+  ONE_TIME: 'one_time',
+  SUBSCRIPTION: 'subscription'
+}
+
+export const PAYMENT_STATUS = {
+  SUCCEEDED: 'succeeded',
+  PROCESSING: 'processing',
+  REQUIRES_PAYMENT_METHOD: 'requires_payment_method',
+  AMOUNT_CAPTURABLE_UPDATED: 'amount_capturable_updated',
+  PAYMENT_FAILED: 'payment_failed'
+}
+
+export const PAYMENT_ERRORS = {
+  CARD_ERROR: 'card_error',
+  VALIDATION_ERROR: 'validation_error',
+  INVALID_REQUEST_ERROR: 'invalid_request_error'
+}
+
+export const PAYMENT_FREQUENCY = {
+  DAILY: 'daily',
+  FORTNIGHTLY: 'fortnightly',
+  WEEKLY: 'weekly',
+  MONTHLY: 'monthly'
+}
+
+export const PAYMENT_FREQUENCY_OPTIONS = {
+  INR: {
+    WEEKLY: PAYMENT_FREQUENCY.WEEKLY,
+    MONTHLY: PAYMENT_FREQUENCY.MONTHLY
+  },
+  NZD: {
+    DAILY: PAYMENT_FREQUENCY.DAILY,
+    WEEKLY: PAYMENT_FREQUENCY.WEEKLY,
+    FORTNIGHTLY: PAYMENT_FREQUENCY.FORTNIGHTLY,
+    MONTHLY: PAYMENT_FREQUENCY.MONTHLY
+  },
+  TRY: {
+    DAILY: PAYMENT_FREQUENCY.DAILY,
+    MONTHLY: PAYMENT_FREQUENCY.MONTHLY,
+    WEEKLY: PAYMENT_FREQUENCY.WEEKLY
+  }
+}
+
+export const PAYMENT_FREQUENCY_LABEL = {
+  [PAYMENT_FREQUENCY.DAILY]: 'perDay',
+  [PAYMENT_FREQUENCY.WEEKLY]: 'everyWeek',
+  [PAYMENT_FREQUENCY.FORTNIGHTLY]: 'everyTwoWeeks',
+  [PAYMENT_FREQUENCY.MONTHLY]: 'everyMonth'
+}
+
+export const PAYMENT_FREQUENCY_LABEL_SHORT = {
+  [PAYMENT_FREQUENCY.DAILY]: 'day',
+  [PAYMENT_FREQUENCY.WEEKLY]: 'week',
+  [PAYMENT_FREQUENCY.MONTHLY]: 'month',
+  [PAYMENT_FREQUENCY.FORTNIGHTLY]: 'fortnight'
+}

@@ -1,0 +1,12 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "i18n-ally.localesPaths": [
+        "src/languages"
+    ],
+    "i18n-ally.keystyle": "nested"
+}

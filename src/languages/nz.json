@@ -1,0 +1,27 @@
+{
+    "OnboardingPage": {
+        "saveInDigitalGold": "Save in digital gold. From $1."
+    },
+    "ReferralPage": {
+        "inviteEarning": "earn $5 free gold"
+    },
+    "CampaignPage": {
+        "staticAmountGoldForYou": "₹25 - ₹10,000 gold for you",
+        "amountGoldForYou": "{amount} gold for you",
+        "referAFriendToPurchase": "Refer a friend to purchase, earn ₹50",
+        "storeCampaignWin": "Win upto ₹10,000 in",
+        "storeCampaignWinQuestion": "Will you win ₹10,000 in gold?",
+        "storeWelcomeWinMessage": "Win <span>₹25 - ₹10,000</span> in Gold",
+        "storeWelcomePlay": "Play to win now!",
+        "storeWelcomePlayNow": "Play now"
+    },
+    "BuyPage": {
+        "transactionFee": "1% Transaction Fee on Deposits and Withdrawals",
+        "signedUpUsersGlobally": "Sugar Wallet has over 150,000 signed up users globally. Our team is ex Google, Microsoft, KPMG employees.",
+        "registeredInNewZealand": "Registered in New Zealand in 2021. We're a mission-driven entity. Our ambition is to champion financial equality globally. We envision a world where every individual can plan a future they dream of, without financial barriers. Our multicultural team operates from New Zealand, London, India, and Turkey.",
+        "purchases": "Deposit:",
+        "whenYouPurchaseGold": "When you purchase gold, the money is deducted immediately from your card, and the price at the time of the deposit is locked in.",
+        "withdrawals": "Withdrawals:",
+        "whenYouSellGold": "When you sell gold, the money is sent back to your given bank account within 1-5 working days. The sell price at the time of withdrawal is also locked in. If there are any troubles with the payment, we will reach out to you for further details."
+    }
+}

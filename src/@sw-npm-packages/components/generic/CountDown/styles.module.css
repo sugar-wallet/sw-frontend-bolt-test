@@ -1,0 +1,34 @@
+.timewrapper {
+  position: relative;
+  width: 80px;
+  height: 60px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 12px;
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+
+.timewrapper .time {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.2s;
+  font-size: 48px;
+}
+
+.timewrapper .time.up {
+  opacity: 0;
+  transform: translateY(-100%);
+}

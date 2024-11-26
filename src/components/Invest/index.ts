@@ -1,0 +1,6 @@
+export * from './PaymentFrequency'
+export * from './AutoInvestMessage'
+export * from './Onboarding'
+export * from './CancelAutoInvest'
+export * from './NextPaymentDetails'
+export * from './TermsAndConditions'
